@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">    
+<script src="https://cdn.tailwindcss.com"></script>
+  <title>Générateur de citations</title>
+</head>
+<body class="bg-slate-900 min-h-screen  flex justify-center items-center ">
+  <main class="relative w-72 h-[15em] py-8 bg-slate-700 flex flex-col text-center items-center justify-items-center self-center  relative rounded-2xl px-12 ">
+<div class="">
+  <h1 class="text-[0.7em] text-green-300 py-4 tracking-widest mt-0">ADVICE <span class=" tracking-widest" id="citation_id"></span></h1>
+<p class="citation text-slate-400 font-bold citation " id="citation"> </p>
+</div>
+    
+<div class="flex items-center space-x-2 mt-4 ">
+  <div class="bg-slate-400 w-24 h-[0.09em]"></div>
+ <i class="fa-solid fa-pause text-slate-400 "></i>
+  <div class="bg-slate-400 w-24 h-[0.09em]"></div>
+</div>
+
+
+</main>
+<div class="mt-[16em] fixed">
+  <button id="btn_Citations" class=" rounded-full bg-green-400 hover:bg-green-500 w-12 h-12 mx-auto flex justify-items-center items-center  self-center  text-center shadow-purple-900"><i class="fa-solid fa-dice-five text-2xl mx-auto hover:rotate-45 rotate-180 "></i></button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
